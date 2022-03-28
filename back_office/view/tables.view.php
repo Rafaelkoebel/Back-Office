@@ -2,13 +2,13 @@
     include("layout/head.inc.php");
 ?>
 
-<div class="align-items-center ">
-    <body class="sb-nav-fixed">
-        
-<?php
+<body class="sb-nav-fixed">
+    
+    <?php
     include("layout/header.inc.php");
     include("layout/nav.inc.php");
-?>
+    ?>
+
     <div class="d-flex justify-content-center ">
     <a href="blog_categories.php">
     <button type="button" class="btn btn-primary">Blog Catégories</button>
@@ -30,7 +30,6 @@
     <button type="button" class="btn btn-warning">Blog Users</button>
     </a>
     </div>
-</div>
 
 
 <?php

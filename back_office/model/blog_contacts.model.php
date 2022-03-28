@@ -3,7 +3,7 @@
     include("model/pdo.inc.php"); //on appelle le fichier 'pdo' qui établie la connection la BDD
 
     try {
-        $query = "SELECT * FROM blog_contacts";
+        $query = "SELECT contact_name FROM blog_contacts";
 
         $req = $pdo->query($query);
         $data = $req->fetchAll();

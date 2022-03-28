@@ -3,7 +3,12 @@
     include("model/pdo.inc.php"); //on appelle le fichier 'pdo' qui établie la connection la BDD
 
     try {
-        $query = "SELECT *, LEFT(post_content, " . TRONCATURE . ") AS post_content FROM blog_posts";
+        $query = "SELECT display_name, cat_descr, LEFT(post_content, " . TRONCATURE . ") AS post_content 
+        FROM blog_posts
+        JOIN blog_users
+        ON ID = post_author
+        JOIN blog_categories
+        ON cat_id = post_category";
 
         $req = $pdo->query($query);
         $data = $req->fetchAll();

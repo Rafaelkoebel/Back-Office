@@ -21,26 +21,14 @@
                         <table id="datatablesSimple">
                             <thead>
                                 <tr>
-                                    <th>ID</th>
                                     <th>user_login</th>
-                                    <th>user_pass</th>
-                                    <th>user_email</th>
-                                    <th>user_photo</th>
-                                    <th>user_admin</th>
-                                    <th>user_token</th>
                                 </tr>
                             </thead>
                             <tbody>
                             <?php foreach($data as $onedata){ ?>
                
                                     <tr>
-                                        <td><?= $onedata["ID"]  ?></td>
                                         <td><?= $onedata["user_login"]  ?></td>
-                                        <td><?= $onedata["user_pass"]  ?></td>
-                                        <td><?= $onedata["user_email"]  ?></td>
-                                        <td><?= $onedata["user_photo"]  ?></td>
-                                        <td><?= $onedata["user_admin"]  ?></td>
-                                        <td><?= $onedata["user_token"]  ?></td>
                                     </tr>
                                     
                                     

@@ -21,10 +21,8 @@
                         <table id="datatablesSimple">
                             <thead>
                                 <tr>
-                                    <th>comment_ID</th>
-                                    <th>comment_post_ID</th>
-                                    <th>comment_author</th>
-                                    <th>comment_date</th>
+                                    <th>display_name</th>
+                                    <th>post_title</th>
                                     <th>comment_content</th>
                                 </tr>
                             </thead>
@@ -32,10 +30,8 @@
                             <?php foreach($data as $onedata){ ?>
                
                                     <tr>
-                                        <td><?= $onedata["comment_ID"]  ?></td>
-                                        <td><?= $onedata["comment_post_ID"]  ?></td>
-                                        <td><?= $onedata["comment_author"]  ?></td>
-                                        <td><?= $onedata["comment_date"]  ?></td>
+                                        <td><?= $onedata["display_name"]  ?></td>
+                                        <td><?= $onedata["post_title"]  ?></td>
                                         <td><?= $onedata["comment_content"]  ?></td>
                                     </tr>
                                     

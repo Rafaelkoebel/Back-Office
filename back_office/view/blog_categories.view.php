@@ -21,7 +21,6 @@
                         <table id="datatablesSimple">
                             <thead>
                                 <tr>
-                                    <th>cat_id</th>
                                     <th>cat_descr</th>
                                 </tr>
                             </thead>
@@ -29,7 +28,6 @@
                             <?php foreach($data as $onedata){ ?>
                
                                     <tr>
-                                        <td><?= $onedata["cat_id"]  ?></td>
                                         <td><?= $onedata["cat_descr"]  ?></td>
                                     </tr>
            
