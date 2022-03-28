@@ -35,7 +35,7 @@
                                         <td><?= $onedata["comment_ID"]  ?></td>
                                         <td><?= $onedata["comment_post_ID"]  ?></td>
                                         <td><?= $onedata["comment_author"]  ?></td>
-                                        <td><?= $onedata["comment_post_ID"]  ?></td>
+                                        <td><?= $onedata["comment_date"]  ?></td>
                                         <td><?= $onedata["comment_content"]  ?></td>
                                     </tr>
                                     

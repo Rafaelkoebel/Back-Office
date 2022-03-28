@@ -38,7 +38,7 @@
                                         <td><?= $onedata["post_author"]  ?></td>
                                         <td><?= $onedata["post_category"]  ?></td>
                                         <td><?= $onedata["post_date"]  ?></td>
-                                        <td><?= $onedata["post_content"]  ?></td>
+                                        <td><?= $onedata["post_content"]  ?>...</td>
                                         <td><?= $onedata["post_title"]  ?></td>
                                         <td><?= $onedata["post_img_url"]  ?></td>
                                     </tr>

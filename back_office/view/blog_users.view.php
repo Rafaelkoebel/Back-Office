@@ -50,6 +50,7 @@
                     </div>
                 </div>
 
+
 <?php
     include("layout/footer.inc.php");
 ?>
