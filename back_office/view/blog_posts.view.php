@@ -7,6 +7,7 @@
 <?php
     include("layout/header.inc.php");
     include("layout/nav.inc.php");
+    include("layout/links.inc.php");
 ?>
 
 
